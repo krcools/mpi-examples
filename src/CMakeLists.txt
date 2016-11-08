@@ -76,9 +76,9 @@ set_target_properties(ex13-pi PROPERTIES
     COMPILE_FLAGS "${MPI_CXX_COMPILE_FLAGS}"
     LINK_FLAGS    "${MPI_CXX_LINK_FLAGS}")
     
-add_executable(matvec_row matvec_row.cpp)
-target_link_libraries(matvec_row ${MPI_CXX_LIBRARIES})
-set_target_properties(matvec_row PROPERTIES
+add_executable(ex14-matvec ex14-matvec.cpp)
+target_link_libraries(ex14-matvec ${MPI_CXX_LIBRARIES})
+set_target_properties(ex14-matvec PROPERTIES
     COMPILE_FLAGS "${MPI_CXX_COMPILE_FLAGS}"
     LINK_FLAGS    "${MPI_CXX_LINK_FLAGS}")
     
